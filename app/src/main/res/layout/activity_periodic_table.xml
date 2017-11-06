@@ -1,0 +1,762 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.periodictable.PeriodicTableActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <GridLayout
+                android:columnCount="18"
+                android:rowCount="9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <Button
+                    android:text="H"
+                    android:background="@color/orange"
+                    android:onClick="HClicked"
+                    />
+                <TextView
+                    android:layout_column="7"
+                    android:layout_row="0"
+                    android:text="Click to"
+                    android:textSize="16sp"
+
+                    />
+                <TextView
+                    android:text="Get "
+                    android:textSize="16sp"
+                    />
+                <TextView
+                    android:text="Details"
+                    android:textSize="16sp"
+                    />
+
+
+                <Button
+                    android:text="He"
+                    android:layout_row="0"
+                    android:layout_column="17"
+                    android:background="@color/accent_material_dark"
+                    android:onClick="HeClicked"
+                    />
+
+                <Button
+                    android:text="Li"
+                    android:background="@color/orange"
+                    android:onClick="LiClicked"
+                    />
+                <Button
+                    android:text="Be"
+                    android:background="@color/orange"
+                    android:onClick="BeClicked"
+                    />
+
+
+
+
+
+                <Button
+                    android:text="B"
+                    android:layout_row="1"
+                    android:layout_column="12"
+                    android:background="@color/orange"
+                    android:onClick="BClicked"
+                    />
+                <Button
+                    android:text="C"
+                    android:background="@color/orange"
+                    android:onClick="CClicked"
+                    />
+
+
+
+                <Button
+                    android:text="N"
+                    android:background="@color/orange"
+                    android:onClick="NClicked"
+                    />
+                <Button
+                    android:text="O"
+                    android:background="@color/orange"
+                    android:onClick="OClicked"
+                    />
+                <Button
+                    android:text="F"
+                    android:background="@color/orange"
+                    android:onClick="FClicked"
+                    />
+                <Button
+                    android:text="Ne"
+                    android:background="@color/accent_material_dark"
+                    android:onClick="NeClicked"
+                    />
+                <Button
+                    android:text="Na"
+                    android:background="@color/orange"
+                    android:onClick="NaClicked"
+                    />
+                <Button
+                    android:text="Mg"
+                    android:background="@color/orange"
+                    android:onClick="MgClicked"
+                    />
+
+
+
+
+
+                <Button
+                    android:text="Al"
+                    android:layout_row="2"
+                    android:layout_column="12"
+
+                    android:background="@color/orange"
+                    android:onClick="AlClicked"
+                    />
+                <Button
+                    android:text="Si"
+                    android:background="@color/orange"
+                    android:onClick="SiClicked"
+                    />
+
+
+
+                <Button
+                    android:text="P"
+                    android:background="@color/orange"
+                    android:onClick="PClicked"
+                    />
+                <Button
+                    android:text="S"
+                    android:background="@color/orange"
+                    android:onClick="SClicked"
+                    />
+                <Button
+                    android:text="Cl"
+                    android:background="@color/orange"
+                    android:onClick="ClClicked"
+                    />
+                <Button
+                    android:text="Ar"
+                    android:background="@color/accent_material_dark"
+                    android:onClick="ArClicked"
+                    />
+                <Button
+                    android:text="K"
+                    android:background="@color/orange"
+                    android:onClick="KClicked"
+                    />
+                <Button
+                    android:text="Ca"
+                    android:background="@color/orange"
+                    android:onClick="CaClicked"
+                    />
+
+                <Button
+                    android:text="Sc"
+                    android:background="@color/orange"
+                    android:onClick="ScClicked"
+                    />
+                <Button
+                    android:text="Ti"
+                    android:background="@color/orange"
+                    android:onClick="TiClicked"
+                    />
+
+
+
+                <Button
+                    android:text="V"
+                    android:background="@color/orange"
+                    android:onClick="VClicked"
+                    />
+                <Button
+                    android:text="Cr"
+                    android:background="@color/orange"
+                    android:onClick="CrClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Mn"
+                    android:background="@color/orange"
+                    android:onClick="MnClicked"
+                    />
+                <Button
+                    android:text="Fe"
+                    android:background="@color/orange"
+                    android:onClick="FeClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Co"
+                    android:background="@color/orange"
+                    android:onClick="CoClicked"
+                    />
+                <Button
+                    android:text="Ni"
+                    android:background="@color/orange"
+                    android:onClick="NiClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Cu"
+                    android:background="@color/orange"
+                    android:onClick="CuClicked"
+                    />
+                <Button
+                    android:text="Zn"
+                    android:background="@color/orange"
+                    android:onClick="ZnClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Ga"
+                    android:background="@color/orange"
+                    android:onClick="GaClicked"
+                    />
+                <Button
+                    android:text="Ge"
+                    android:background="@color/orange"
+                    android:onClick="GeClicked"
+                    />
+
+
+
+                <Button
+                    android:text="As"
+                    android:background="@color/orange"
+                    android:onClick="AsClicked"
+                    />
+                <Button
+                    android:text="Se"
+                    android:background="@color/orange"
+                    android:onClick="SeClicked"
+                    />
+                <Button
+                    android:text="Br"
+                    android:background="@color/orange"
+                    android:onClick="BrClicked"
+                    />
+                <Button
+                    android:text="Kr"
+                    android:background="@color/accent_material_dark"
+                    android:onClick="KrClicked"
+                    />
+                <Button
+                    android:text="Rb"
+                    android:background="@color/orange"
+                    android:onClick="RbClicked"
+                    />
+                <Button
+                    android:text="Sr"
+                    android:background="@color/orange"
+                    android:onClick="SrClicked"
+                    />
+
+                <Button
+                    android:text="Y"
+                    android:background="@color/orange"
+                    android:onClick="YClicked"
+                    />
+                <Button
+                    android:text="Zr"
+                    android:background="@color/orange"
+                    android:onClick="ZrClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Nb"
+                    android:background="@color/orange"
+                    android:onClick="NbClicked"
+                    />
+                <Button
+                    android:text="Mo"
+                    android:background="@color/orange"
+                    android:onClick="MoClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Tc"
+                    android:background="@color/orange"
+                    android:onClick="TcClicked"
+                    />
+                <Button
+                    android:text="Ru"
+                    android:background="@color/orange"
+                    android:onClick="RuClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Rh"
+                    android:background="@color/orange"
+                    android:onClick="RhClicked"
+                    />
+                <Button
+                    android:text="Pd"
+                    android:background="@color/orange"
+                    android:onClick="PdClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Ag"
+                    android:background="@color/orange"
+                    android:onClick="AgClicked"
+                    />
+                <Button
+                    android:text="Cd"
+                    android:background="@color/orange"
+                    android:onClick="CdClicked"
+                    />
+
+
+
+                <Button
+                    android:text="In"
+                    android:background="@color/orange"
+                    android:onClick="InClicked"
+                    />
+                <Button
+                    android:text="Sn"
+                    android:background="@color/orange"
+                    android:onClick="SnClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Sb"
+                    android:background="@color/orange"
+                    android:onClick="SbClicked"
+                    />
+                <Button
+                    android:text="Te"
+                    android:background="@color/orange"
+                    android:onClick="TeClicked"
+                    />
+                <Button
+                    android:text="I"
+                    android:background="@color/orange"
+                    android:onClick="IClicked"
+                    />
+                <Button
+                    android:text="Xe"
+                    android:background="@color/accent_material_dark"
+                    android:onClick="XeClicked"
+                    />
+                <Button
+                    android:text="Cs"
+                    android:background="@color/orange"
+                    android:onClick="CsClicked"
+                    />
+                <Button
+                    android:text="Ba"
+                    android:background="@color/orange"
+                    android:onClick="BaClicked"
+                    />
+
+                <Button
+                    android:text="La**"
+                    android:background="@color/orange"
+                    android:onClick="LaClicked"
+                    />
+                <Button
+                    android:text="Hf"
+                    android:background="@color/orange"
+                    android:onClick="HfClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Ta"
+                    android:background="@color/orange"
+                    android:onClick="TaClicked"
+                    />
+                <Button
+                    android:text="W"
+                    android:background="@color/orange"
+                    android:onClick="WClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Re"
+                    android:background="@color/orange"
+                    android:onClick="ReClicked"
+                    />
+                <Button
+                    android:text="Os"
+                    android:background="@color/orange"
+                    android:onClick="OsClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Ir"
+                    android:background="@color/orange"
+                    android:onClick="IrClicked"
+                    />
+                <Button
+                    android:text="Pt"
+                    android:background="@color/orange"
+                    android:onClick="PtClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Au"
+                    android:background="@color/orange"
+                    android:onClick="AuClicked"
+                    />
+                <Button
+                    android:text="Hg"
+                    android:background="@color/orange"
+                    android:onClick="HgClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Tl"
+                    android:background="@color/orange"
+                    android:onClick="TlClicked"
+                    />
+                <Button
+                    android:text="Pb"
+                    android:background="@color/orange"
+                    android:onClick="PbClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Bi"
+                    android:background="@color/orange"
+                    android:onClick="BiClicked"
+                    />
+                <Button
+                    android:text="Po"
+                    android:background="@color/orange"
+                    android:onClick="PoClicked"
+                    />
+                <Button
+                    android:text="At"
+                    android:background="@color/orange"
+                    android:onClick="AtClicked"
+                    />
+                <Button
+                    android:text="Rn"
+                    android:background="@color/accent_material_dark"
+
+                    android:onClick="RnClicked"
+                    />
+                <Button
+                    android:text="Fr"
+                    android:background="@color/orange"
+                    android:onClick="FrClicked"
+                    />
+                <Button
+                    android:text="Ra"
+                    android:background="@color/orange"
+                    android:onClick="RaClicked"
+                    />
+
+                <Button
+                    android:text="Ac**"
+                    android:background="@color/orange"
+                    android:onClick="AcClicked"
+                    />
+                <Button
+                    android:text="Rf"
+                    android:background="@color/orange"
+                    android:onClick="RfClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Db"
+                    android:background="@color/orange"
+                    android:onClick="DbClicked"
+                    />
+                <Button
+                    android:text="Sg"
+                    android:background="@color/orange"
+                    android:onClick="SgClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Bh"
+                    android:background="@color/orange"
+                    android:onClick="BhClicked"
+                    />
+                <Button
+                    android:text="Hs"
+                    android:background="@color/orange"
+                    android:onClick="HsClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Mt"
+                    android:background="@color/orange"
+                    android:onClick="MtClicked"
+                    />
+
+
+                <TextView
+                    android:layout_row="7"
+                    android:layout_column="0"
+                    android:text="Lanthanoid "
+
+
+                    />
+                <TextView
+
+                    android:text=" Series:"
+
+
+                    />
+
+
+
+
+                <Button
+                    android:text="La"
+                    android:background="@color/orange"
+                    android:onClick="LaClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Ce"
+                    android:background="@color/orange"
+                    android:onClick="CeClicked"
+                    />
+                <Button
+                    android:text="Pr"
+                    android:background="@color/orange"
+                    android:onClick="PrClicked"
+                    />
+                <Button
+                    android:text="Nd"
+                    android:background="@color/orange"
+                    android:onClick="NdClicked"
+                    />
+                <Button
+                    android:text="Pm"
+                    android:background="@color/orange"
+                    android:onClick="PmClicked"
+                    /><Button
+                android:text="Sm"
+                android:background="@color/orange"
+                android:onClick="SmClicked"
+                />
+                <Button
+                    android:text="Eu"
+                    android:background="@color/orange"
+                    android:onClick="EuClicked"
+                    />
+
+                <Button
+                    android:text="Gd"
+                    android:background="@color/orange"
+                    android:onClick="GdClicked"
+                    />
+                <Button
+                    android:text="Tb"
+                    android:background="@color/orange"
+                    android:onClick="TbClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Dy"
+                    android:background="@color/orange"
+                    android:onClick="DyClicked"
+                    />
+                <Button
+                    android:text="Ho"
+                    android:background="@color/orange"
+                    android:onClick="HoClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Er"
+                    android:background="@color/orange"
+                    android:onClick="ErClicked"
+                    />
+                <Button
+                    android:text="Tm"
+                    android:background="@color/orange"
+                    android:onClick="TmClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Yb"
+                    android:background="@color/orange"
+                    android:onClick="YbClicked"
+                    />
+                <Button
+                    android:text="Lu"
+                    android:background="@color/orange"
+                    android:onClick="LuClicked"
+                    />
+
+
+
+                <TextView
+                    android:layout_row="8"
+                    android:layout_column="0"
+                    android:text="Actinoid "
+
+
+                    />
+                <TextView
+
+                    android:text=" Series:"
+
+
+                    />
+
+
+
+                <Button
+                    android:text="Ac"
+                    android:background="@color/orange"
+                    android:onClick="AcClicked"
+                    />
+                <Button
+                    android:text="Th"
+                    android:background="@color/orange"
+                    android:onClick="ThClicked"
+                    />
+                <Button
+                    android:text="Pa"
+                    android:background="@color/orange"
+                    android:onClick="PaClicked"
+                    />
+                <Button
+                    android:text="U"
+                    android:background="@color/orange"
+                    android:onClick="UClicked"
+                    />
+                <Button
+                    android:text="Np"
+                    android:background="@color/orange"
+                    android:onClick="NpClicked"
+                    />
+                <Button
+                    android:text="Pu"
+                    android:background="@color/orange"
+                    android:onClick="PuClicked"
+                    />
+
+                <Button
+                    android:text="Am"
+                    android:background="@color/orange"
+                    android:onClick="AmClicked"
+                    />
+                <Button
+                    android:text="Cm"
+                    android:background="@color/orange"
+                    android:onClick="CmClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Bk"
+                    android:background="@color/orange"
+                    android:onClick="BkClicked"
+                    />
+                <Button
+                    android:text="Cf"
+                    android:background="@color/orange"
+                    android:onClick="CfClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Es"
+                    android:background="@color/orange"
+                    android:onClick="EsClicked"
+                    />
+                <Button
+                    android:text="Fm"
+                    android:background="@color/orange"
+                    android:onClick="FmClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Md"
+                    android:background="@color/orange"
+                    android:onClick="MdClicked"
+                    />
+                <Button
+                    android:text="No"
+                    android:background="@color/orange"
+                    android:onClick="NoClicked"
+                    />
+
+
+
+                <Button
+                    android:text="Lr"
+                    android:background="@color/orange"
+                    android:onClick="LrClicked"
+                    />
+
+
+
+
+
+
+
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

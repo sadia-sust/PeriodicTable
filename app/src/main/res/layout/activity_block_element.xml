@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+
+    tools:context="com.example.hp.periodictable.BlockElementActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S Block Elements:"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        />
+    <TextView android:text="The s-block is one of four blocks of elements on the periodic table. The s-block group have a common property. The electron in their most outward electron shell are in the s-orbital. Elements in the s-block are in the first two periodic table groups. The elements in group one are called the alkali metals." android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkorange"
+        />
+
+</LinearLayout>

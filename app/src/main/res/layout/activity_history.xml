@@ -1,0 +1,66 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.periodictable.HistoryActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        <TextView android:text="History of the periodic table" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/green"
+            />
+        <TextView android:text="The history of the periodic table reflects over a century \n of growth in the understanding of chemical properties." android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/darkorange"
+            />
+        <TextView android:text="The most important event in its history occurred in 1869,"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/darkorange"
+            />
+        <TextView android:text="when the table was published by Dmitri Mendeleev,"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/darkorange"
+            />
+        <TextView android:text="who built upon earlier discoveries by scientists \nsuch as Antoine-Laurent de Lavoisier and John Newlands,"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/darkorange"
+            />
+        <TextView android:text="but who is nevertheless generally given sole credit for its development."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/darkorange"
+            />
+        <TextView android:text="Alexandre-Emile Béguyer de Chancourtois, a French geologist, was the first person to notice the periodicity of the elements — similar elements occurring at regular intervals when they are ordered by their atomic weights. In 1862 he devised an early form of periodic table, which he named Vis tellurique (the 'telluric helix'\nIn 1864, the English chemist John Newlands classified the sixty-two known elements into seven groups, based on their physical properties. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+            android:textColor="@color/darkorange"
+        />
+        <TextView android:text="The Russian chemist Dmitri Mendeleev was the first scientist to make a periodic table similar to the one used today. Mendeleev arranged the elements by atomic mass, corresponding to relative molar mass. It is sometimes said that he played 'chemical solitaire' on long train journeys, using cards with various facts about the known elements."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/darkorange"    />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

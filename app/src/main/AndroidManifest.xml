@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.periodictable" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeriodicTableActivity"
+            android:label="@string/title_activity_periodic_table"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".BlockElementActivity"
+            android:label="@string/title_activity_block_element"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".PBlockActivity"
+            android:label="@string/title_activity_pblock"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".DBlockActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_dblock" >
+        </activity>
+        <activity
+            android:name=".FBlockActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_fblock" >
+        </activity>
+    </application>
+
+</manifest>
